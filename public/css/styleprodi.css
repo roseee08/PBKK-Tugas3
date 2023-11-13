@@ -1,0 +1,69 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+.prodi-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.prodi-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.prodi-card a {
+    margin-right: 10px;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.prodi-card a:hover {
+    color: #2980b9;
+}
+
+.prodi-card hr {
+    margin: 15px 0;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+.success-message {
+    color: green;
+}
+
+.error-message {
+    color: red;
+}
